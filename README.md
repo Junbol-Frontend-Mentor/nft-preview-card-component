@@ -1,6 +1,6 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - NFT preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -25,8 +25,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: (https://github.com/Junbol-Frontend-Mentor/Product-preview-card-component-HTML-CSS-Responsive)
-- Live Site URL: (https://junbol-frontend-mentor.github.io/Product-preview-card-component-HTML-CSS-Responsive/)
+- Solution URL: (https://github.com/Junbol-Frontend-Mentor/nft-preview-card-component)
+- Live Site URL: (https://junbol-frontend-mentor.github.io/nft-preview-card-component/)
 
 ## My process
 
@@ -38,42 +38,14 @@ This is a solution to the [Product preview card component challenge on Frontend 
 -Mobile-first workflow
 -GIT/GitHub
 -PowerShell Command line
+-Tailwind
 
 ### What I learned
 
-Working with peudo-elements
+Working with Tailwind for the first time
 
-```css
-wo .price {
-  position: relative; /* Enables positioning of pseudo-elements relative to this element */
-  font-size: 2.5rem;
-  font-family: 'Fraunces', serif;
-  font-weight: 800;
-  color: var(--color-Dark-Green);
-  padding: 0px; /* Adjust padding as needed */
-  /* background-color: aqua; */
-}
+```
 
-.price::after {
-  content: '$169.99'; /* Old price */
-  font-family: 'Montserrat', serif;
-  font-weight: 300;
-  font-size: 1rem;
-  color: var(--color-Black);
-  text-decoration: line-through; /* Creates the strike-through effect */
-  position: absolute; /* Positions this element out of the normal flow, relative to its nearest positioned ancestor */
-  top: 0px; /* This moves the pseudo-element above the container */
-  left: 170px; /* Aligns the pseudo-element to the right of the nre price */
-  background-color: rgba(255, 255, 255, 0.7); /* Optional background to increase readability */
-}
-
-.chart-icon::before {
-  font-family: 'Font Awesome 5 Free'; /* This is needed to ensure the correct font is used */
-  content: '\f07a'; /* This is the unicode for the fa-chart-bar icon */
-  color: white; /* Set the color */
-  size: 0.5rem;
-  font-weight: 900; /* Font Awesome requires 900 weight for solid icons */
-}
 ```
 
 ### Continued development
